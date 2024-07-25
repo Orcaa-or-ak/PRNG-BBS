@@ -11,9 +11,9 @@ X_{n+1} = X_n^2 \mod m
 $$
 
 Where:
-- $X$ is the sequence of pseudorandom values,
-- $X_0$ is the seed or starting value,
-- $X_{n+1}$ is the next number in the sequence,
+- $X$ is the sequence of pseudorandom values.
+- $X_0$ is the seed or starting value.
+- $X_{n+1}$ is the next number in the sequence.
 - $m$ is the product of two large prime numbers $p$ and $q$.
 
 ## Implementation
