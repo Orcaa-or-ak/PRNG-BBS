@@ -7,7 +7,7 @@ This project demonstrates the implementation of a Blum Blum Shub (BBS) random nu
 The BBS algorithm is defined by the recurrence relation:
 
 $$
-X_{n+1} = X_n^2\mod m
+X_{n+1} = X_n^2 \mod m
 $$
 
 Where:
