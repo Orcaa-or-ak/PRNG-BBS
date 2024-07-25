@@ -1,6 +1,6 @@
 # Blum Blum Shub (BBS) Random Number Generator
 
-This project demonstrates the implementation of a Blum Blum Shub (BBS) random number generator in Java. BBS is a cryptographically secure pseudorandom number generator.
+This project demonstrates the implementation of a Blum Blum Shub (BBS) random number generator in Java.
 
 ## Overview
 
@@ -70,10 +70,3 @@ public static void main(String[] args) {
 ```
 
 This will generate and print 10 pseudorandom numbers based on the BBS algorithm.
-
-## Parameters
-
-The default parameters used in this implementation are:
-- Prime number \(p\) and \(q\): Large prime numbers where \(p \mod 4 = 3\) and \(q \mod 4 = 3\)
-- Modulus (`m`): The product of \(p\) and \(q\)
-- Initial seed (\(X_0\)) (`seed`): 3141592654
