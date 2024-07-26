@@ -18,7 +18,7 @@ Where:
 
 ## Implementation
 
-The Java implementation of the BBS is encapsulated in a class named `BlumBlumShub`. The BigInteger class of the java.math package is used to handle large integers, and the SecureRandom class of the java.security package is used to generate strong numbers. These two classes are suitable for cryptographic purposes.
+The Java implementation of the XORShift is encapsulated in a class named `XORShift`. The `BigInteger` class of the `java.math` package is used to handle large integers, and the `SecureRandom` class of the `java.security` package is used to generate a strong initial seed. These two classes are suitable for cryptographic purposes.
 
 ### Class: `BlumBlumShub`
 
@@ -70,3 +70,6 @@ public static void main(String[] args) {
 ```
 
 This will generate and print 10 pseudorandom numbers based on the BBS algorithm.
+
+### Calculate CPU, RAM use and time costs.
+The `System.nanoTime()` and `Runtime` class are used to measure how much CPU, RAM and time the program takes to generate a number.
